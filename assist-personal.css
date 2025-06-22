@@ -1,0 +1,107 @@
+
+.all-services{
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+
+.personal img{
+    width: 100%;
+    height: 500px;
+}
+.personal2{
+    font-size: 20px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    box-shadow: purple;
+}
+.key-features{
+ border: 2px solid purple;
+ box-shadow: rgba(153, 255, 0, 0.564);
+ border-radius: 20px;
+}
+    .container11 {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .service-box {
+      
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      transition: transform 0.2s ease;
+      width: 300px;
+      
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 960px) {
+      .service-box{
+        width: 300px;
+      }
+    }
+    @media (max-width: 760px){
+             
+        .container11 {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .why-all{
+        text-align: center;
+    }
+    .why-all4{
+        font-size: medium;
+        font-weight: bolder;
+    }
+
+    .why-all2 {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .why-all3 {
+      
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      transition: transform 0.2s ease;
+      width: 300px;
+      
+    }
+
+    .why-all3:hover {
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 960px) {
+      .why-all3{
+        width: 300px;
+      }
+    }
+    @media (max-width: 760px){
+             
+        .why-all2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
