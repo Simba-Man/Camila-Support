@@ -1,0 +1,179 @@
+.life-stage{
+    font-style: italic;
+    font-family: sans-serif;
+    
+}
+.life-stage2{
+   text-align: center;
+   
+}
+.life-stage3{
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 40px;
+      background-color: #f9f9f9;
+}
+.life-stage4{
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      transition: transform 0.2s ease;
+      width: 500px;
+      height: 150px;
+      align-items: center;
+    
+
+}
+.life-stage4:hover{
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+}
+/*life stage */
+@media(max-width: 1000px){
+   .life-stage4{
+        width: 350px;
+    }
+}
+@media(max-width: 915px){
+   .life-stage4{
+        width: 300px;
+    }
+}
+@media(max-width: 755px){
+   .life-stage4{
+        width: 250px;
+    }
+}
+@media(max-width:655px){
+    .life-stage4{
+        width: 100%;
+    }
+    .tir-bal1{
+        display: inline;
+    }
+    .tir-bal{
+        display: none;
+    }
+}
+
+/*end life stage */
+
+
+.approuch{
+    font-style: italic;
+    font-family: sans-serif;
+    align-items: center;
+}
+.tir-bal1{
+    display: none;
+}
+.approach1{
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 40px;
+      background-color: #f9f9f9;
+}
+.approach2{
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      transition: transform 0.2s ease;
+      width: 500px;
+      height: 150px;
+}
+.approach2:hover{
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+}
+@media(max-width: 1000px){
+    .approach2{
+        width: 350px;
+    }
+}
+@media(max-width:915px){
+    .approach2{
+        width: 300px;
+    }
+}
+@media(max-width:755px){
+    .approach2{
+        width: 250px;
+    }
+}
+@media(max-width:655px){
+    .approach2{
+        width: 100%;
+    }
+    .tir-bal1{
+        display: inline;
+    }
+    .tir-bal{
+        display: none;
+    }
+}
+
+/* starting of with Camila support service */
+.with{
+    text-align: center;
+    
+}
+
+/*why with is starting here. */
+.why-with{
+    align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #f9f9f9;
+}
+.why-with1{
+   background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      transition: transform 0.2s ease;
+      width: 500px;
+      height: 150px;
+}
+@media(max-width: 1000px){
+    .why-with1{
+        width: 400px;
+    }
+}
+@media(max-width:915px){
+    .why-with1{
+        width: 300px;
+    }
+}
+@media(max-width:715px){
+    .why-with1{
+        width: 250px;
+    }
+}
+@media(max-width:615px){
+    .why-with1{
+        width: 100%;
+    }
+}
+
+/*waa gooni */
+.dhadhami{
+    padding: 20px;
+    background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      font-family: Arial, sans-serif;
+}
