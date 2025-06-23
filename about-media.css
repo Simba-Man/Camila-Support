@@ -1,0 +1,59 @@
+@media(max-width:1000px){
+    .about-photo img{
+        padding: 0;
+        
+    }
+    .about-photo{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media(max-width:600px){
+    .some-info{
+        justify-content: space-between;
+        
+    }
+    .first-info{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+}
+@media(max-width:520px){
+    .some-info{
+        display: block;
+        
+    }
+    .first-info{
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    .some-info{
+        height: 130px;
+    }
+    
+}
+
+
+
+@media (max-width:560px){
+    .testimony-with-text{
+        width: 300px;
+    }
+}
+@media (max-width:650px){
+    .last-one{
+        
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+   
+}
+@media(max-width:400px){
+    .last-one-1{
+        font-size: 15px;
+    }
+}
